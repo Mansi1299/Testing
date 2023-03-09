@@ -33,6 +33,7 @@ function IncDecCounter() {
             className="form-control"
             value={num}
             onChange={handleChange}
+            style={{margin:"20px"}}
             data-testid="valid-form"
           
           />

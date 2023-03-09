@@ -24,4 +24,10 @@ describe(("component counter test"),()=>{
         let btn=data.getByTestId("valid-form")
         expect(btn).toBeVisible()
     })
+    test("should button  in a wclick",()=>{
+        const data=render(<IncDecCounter/>)
+        let btn=data.getByTestId("valid-form")
+        expect(btn).toHaveStyle('margin:20px')
+        // expect(btn).toHaveStyle({margin: '20px'})
+    })
 })

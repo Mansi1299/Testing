@@ -25,6 +25,7 @@ Object {
           <input
             class="form-control"
             data-testid="valid-form"
+            style="margin: 20px;"
             type="text"
             value="0"
           />
@@ -64,6 +65,7 @@ Object {
         <input
           class="form-control"
           data-testid="valid-form"
+          style="margin: 20px;"
           type="text"
           value="0"
         />
