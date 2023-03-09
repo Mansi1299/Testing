@@ -33,14 +33,15 @@ function IncDecCounter() {
             className="form-control"
             value={num}
             onChange={handleChange}
-            data-testid="buttonmy"
+            data-testid="valid-form"
+          
           />
           <div className="input-group-prepend">
             <button
               className="btn btn-outline-primary"
               type="button"
               onClick={incNum}
-             
+              data-testid="buttonmy"
             >
               +
             </button>

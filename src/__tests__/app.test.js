@@ -18,8 +18,10 @@ describe(("component counter test"),()=>{
         const data=render(<IncDecCounter/>)
         let btn=data.getByTestId("buttonmy")
         expect(btn).toBeInTheDocument()
-        // 
-        
-
+    })
+    test("should button  in click",()=>{
+        const data=render(<IncDecCounter/>)
+        let btn=data.getByTestId("valid-form")
+        expect(btn).toBeVisible()
     })
 })

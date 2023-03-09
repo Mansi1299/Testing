@@ -24,7 +24,7 @@ Object {
           </div>
           <input
             class="form-control"
-            data-testid="buttonmy"
+            data-testid="valid-form"
             type="text"
             value="0"
           />
@@ -33,6 +33,7 @@ Object {
           >
             <button
               class="btn btn-outline-primary"
+              data-testid="buttonmy"
               type="button"
             >
               +
@@ -62,7 +63,7 @@ Object {
         </div>
         <input
           class="form-control"
-          data-testid="buttonmy"
+          data-testid="valid-form"
           type="text"
           value="0"
         />
@@ -71,6 +72,7 @@ Object {
         >
           <button
             class="btn btn-outline-primary"
+            data-testid="buttonmy"
             type="button"
           >
             +
