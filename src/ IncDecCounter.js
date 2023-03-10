@@ -2,6 +2,7 @@ import { useState } from "react";
 function IncDecCounter() {
   let [num, setNum] = useState(0);
   let incNum = () => {
+    console.log("calllllll")
     if (num < 10) {
       setNum(Number(num) + 1);
     }

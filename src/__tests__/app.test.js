@@ -30,4 +30,14 @@ describe(("component counter test"),()=>{
         expect(btn).toHaveStyle('margin:20px')
         // expect(btn).toHaveStyle({margin: '20px'})
     })
+    test("should button  dincrement",()=>{
+        const data=render(<IncDecCounter/>)
+        let btn=data.getByTestId("valid-form")
+        let called=fireEvent.click(btn)
+        expect(called).toBeTruthy()
+       console.log(btn.value,"value",called)
+
+       // expect(btn).toHaveStyle('margin:20px')
+        // expect(btn).toHaveStyle({margin: '20px'})
+    })
 })
